@@ -1,0 +1,24 @@
+body{
+  background-color: hsl(300,30%,75%);
+  color: white
+}
+.topoSvg{
+  margin-left: 400px;
+  background-color: hsl(200,50%,15%);
+  border-radius: 5px;
+  box-shadow: 0 0 510px black;
+}
+path:hover{
+  fill: yellow;
+  stroke: #000;
+  stroke-linejoin: round;
+}
+rect{
+  stroke: #000;
+  stroke-linejoin: round;
+}
+#tooltip{
+  background-color: hsl(150,50%,50%);
+  padding: 20px;
+  border-radius: 6px;
+}
